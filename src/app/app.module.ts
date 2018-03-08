@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
-
+import { SidenavDemoModule } from './sidenav-demo/sidenav-demo.module';
 
 @NgModule({
   declarations: [
@@ -11,7 +11,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    SidenavDemoModule
   ],
   providers: [],
   bootstrap: [AppComponent]

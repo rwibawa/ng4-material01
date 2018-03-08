@@ -10,4 +10,7 @@ $ cd ng4-material01
 $ npm install --save @angular/material @angular/cdk
 $ npm install --save @angular/animations
 $ npm install --save hammerjs
+
+$ ng g module sidenavDemo
+$ ng g component sidenavDemo
 ```
